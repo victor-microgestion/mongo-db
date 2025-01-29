@@ -180,6 +180,8 @@ El modelado en MongoDB no es "one-size-fits-all". Prioriza:
 2. **Atomicidad** en sistemas transaccionales (OLTP).  
 3. **Escalabilidad horizontal** desde el diseño inicial.  
 
+[Mas sobre OLAP y OLTP](https://github.com/victor-microgestion/mongo-db/blob/main/OLAP_OLTP.md)
+
 Para casos extremos (ej: >1B de relaciones), combina MongoDB con grafos (Neo4j) o almacenes de columnas (Cassandra), usando patrones híbridos .  
 
 ### **🚀 Integrando Redis para Reducir la Carga en MongoDB**
